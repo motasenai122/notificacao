@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificador Premium</title>
+    <meta name="description" content="Uma demonstração elegante de sistema de notificações web.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="glow-text">Notify<span>Me</span></h1>
+            <p>Clique no botão abaixo para disparar uma notificação elegante.</p>
+        </header>
+        
+        <main>
+            <button id="notifyBtn" class="premium-btn">
+                <span class="btn-content">Disparar Notificação</span>
+                <span class="btn-glow"></span>
+            </button>
+        </main>
+
+        <footer>
+            <p>Desenvolvido com design premium</p>
+        </footer>
+    </div>
+
+    <!-- Container para os Toasts -->
+    <div id="notification-container" class="notification-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
